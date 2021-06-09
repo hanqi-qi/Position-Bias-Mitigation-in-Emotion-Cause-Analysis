@@ -1,9 +1,5 @@
 # -*- encoding:utf-8 -*-
-'''
-@time: 2019/05/31
-@author: mrzhang
-@email: zhangmengran@njust.edu.cn
-'''
+''' This code is partly based from RTHN repository(https://github.com/NUSTM/RTHN)'''
 
 import numpy as np
 import tensorflow as tf
@@ -14,7 +10,7 @@ import pickle as pk
 from sklearn.metrics import precision_score, recall_score, f1_score
 from tensorflow.contrib.layers import xavier_initializer
 
-path = '/home/hanqiyan/emotioncause/yy_test/data/'
+path = '../data/'
 max_doc_len = 75
 max_sen_len = 45
 max_path_num = 10

@@ -3,7 +3,7 @@ ACL2021:Position Bias Mitigation: A Knowledge-Aware Graph Model for EmotionCause
 
 [Hanqi Yan](https://github.com/hanqi-qi), [Lin Gui](https://warwick.ac.uk/fac/sci/dcs/people/lin_gui/), [Gabriele Pergola](https://warwick.ac.uk/fac/sci/dcs/people/u1898418/), [Yulan He](https://warwick.ac.uk/fac/sci/dcs/people/yulan_he/).
 
-In this work, we find that a widely-used ECE dataset exhibits a poistion bias and existing models tend to rely on the relative information and suffer from the dataset bias. Our proposed knowledge-aware model performs on par with the existing methods on the original ECE dataset, and is more robust against adversarial samples whose relative imformation has been changed. [Our paper contains further details](https://arxiv.org/abs/2103.03404). This repository contains the code for our experiments.
+In this work, we find that a widely-used ECE dataset exhibits a poistion bias and existing models tend to rely on the relative information and suffer from the dataset bias. Our proposed knowledge-aware model performs on par with the existing methods on the original ECE dataset, and is more robust against adversarial samples whose relative imformation has been changed. [Our paper contains further details](https://arxiv.org/abs/2106.03518). This repository contains the code for our experiments.
 
 <p>
 <img src="model_overview.png"  width="550" >

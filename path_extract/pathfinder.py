@@ -177,11 +177,11 @@ if __name__ == '__main__':
     # print();print();print();print();print();
 
     sys.stdout = open('raw_paths.log', 'w')
-    keywords_file = open('/home/hanq1yanwarwick/code/path_code/input_file/keywords_en.csv').readlines()#extracted keywords in english
-    ori_file = open("/home/hanq1yanwarwick/code/path_code/input_file/clause_keywords.txt").readlines()
+    keywords_file = open('/input_file/keywords_en.csv').readlines()#extracted keywords in english
+    ori_file = open("/input_file/clause_keywords.txt").readlines()
 
-    ch_words = open("/home/hanq1yanwarwick/code/path_code/words.txt").readlines()
-    en_words = open("/home/hanq1yanwarwick/code/path_code/world_translation.txt").readlines()
+    ch_words = open("/words.txt").readlines()
+    en_words = open("world_translation.txt").readlines()
     ch_en_dict = {}
     for i in range(len(ch_words)):
         ch_en_dict[ch_words[i].strip()] = en_words[i].strip()

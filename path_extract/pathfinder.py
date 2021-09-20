@@ -181,7 +181,7 @@ if __name__ == '__main__':
     ori_file = open("/input_file/clause_keywords.txt").readlines()
 
     ch_words = open("/words.txt").readlines()
-    en_words = open("world_translation.txt").readlines()
+    en_words = open("word_translation.txt").readlines()
     ch_en_dict = {}
     for i in range(len(ch_words)):
         ch_en_dict[ch_words[i].strip()] = en_words[i].strip()
